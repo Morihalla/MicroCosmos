@@ -1,7 +1,7 @@
 package IntrinsicProperties;
 
 public enum ColorCharge {
-    RED,
-    GREEN,
-    BLUE;
+    RED,ANTIRED,
+    GREEN,ANTIGREEN,
+    BLUE,ANTIBLUE
 }

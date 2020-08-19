@@ -1,9 +1,9 @@
-package ElementaryParticles.Fermions.Quarks;
+package ElementaryParticles.Fermions.Particles.Quarks;
 
 import IntrinsicProperties.ElectricCharge;
 
-public class Strange extends Quark {
-    Generation generation = Generation.SECOND;
+public class Bottom extends Quark {
+    Generation generation = Generation.THIRD;
     ElectricCharge electricCharge = ElectricCharge.NEGATIVE;
     double electricChargeValue = -(1/3);
 }

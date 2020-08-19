@@ -2,5 +2,7 @@ package IntrinsicProperties;
 
 public enum ElectricCharge {
     POSITIVE,
-    NEGATIVE;
+    NEGATIVE,
+    CHARGED,
+    NEUTRAL
 }
