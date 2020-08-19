@@ -6,4 +6,5 @@ import IntrinsicProperties.ElectricCharge;
 public class ElectronNutrino extends Lepton {
     Generation generation = Generation.FIRST;
     ElectricCharge electricCharge = ElectricCharge.NEUTRAL;
+    double electricChargeValue = 0;
 }

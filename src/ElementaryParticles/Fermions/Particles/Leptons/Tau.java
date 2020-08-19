@@ -5,5 +5,6 @@ import IntrinsicProperties.ElectricCharge;
 
 public class Tau extends Lepton {
     Generation generation = Generation.THIRD;
-    ElectricCharge electricCharge = ElectricCharge.CHARGED;
+    ElectricCharge electricCharge = ElectricCharge.NEGATIVE;
+    double electricChargeValue = -1;
 }

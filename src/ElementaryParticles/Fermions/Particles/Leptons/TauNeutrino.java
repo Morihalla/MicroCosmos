@@ -6,4 +6,5 @@ import IntrinsicProperties.ElectricCharge;
 public class TauNeutrino extends Lepton {
     Generation generation = Generation.THIRD;
     ElectricCharge electricCharge = ElectricCharge.NEUTRAL;
+    double electricChargeValue = 0;
 }

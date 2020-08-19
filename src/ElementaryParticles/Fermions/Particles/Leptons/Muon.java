@@ -5,5 +5,6 @@ import IntrinsicProperties.ElectricCharge;
 
 public class Muon extends Lepton {
     Generation generation = Generation.SECOND;
-    ElectricCharge electricCharge = ElectricCharge.CHARGED;
+    ElectricCharge electricCharge = ElectricCharge.NEGATIVE;
+    double electricChargeValue = -1;
 }

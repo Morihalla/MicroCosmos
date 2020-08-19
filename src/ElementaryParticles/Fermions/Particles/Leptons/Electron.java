@@ -5,5 +5,6 @@ import IntrinsicProperties.ElectricCharge;
 
 public class Electron extends Lepton {
     Generation generation = Generation.FIRST;
-    ElectricCharge electricCharge = ElectricCharge.CHARGED;
+    ElectricCharge electricCharge = ElectricCharge.NEGATIVE;
+    double electricChargeValue = -1;
 }
