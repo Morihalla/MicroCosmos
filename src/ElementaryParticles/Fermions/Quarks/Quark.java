@@ -4,7 +4,9 @@ import IntrinsicProperties.ElectricCharge;
 
 public abstract class Quark {
 ElectricCharge electricCharge;
-Long mass;
+double electricChargeValue;
+long mass;
 String colorCharge;
-Double Spin = 0.5;
+double Spin = 0.5;
+Generation generation;
 }
